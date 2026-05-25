@@ -1,12 +1,16 @@
-name: My First CI
+name: CI
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
-  hello:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Message
-        run: echo "Hello from GitHub Actions!"
+      - uses: actions/checkout@v4
+
+      - name: Test
+        run: echo "CI pipeline running successfully"
