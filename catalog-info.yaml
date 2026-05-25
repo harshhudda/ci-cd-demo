@@ -8,6 +8,10 @@ metadata:
   annotations:
     github.com/project-slug: harshhudda/ci-cd-demo
 
+  links:
+    - title: GitHub
+      url: https://github.com/harshhudda/ci-cd-demo
+
 spec:
   type: service
   lifecycle: experimental
