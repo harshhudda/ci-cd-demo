@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: harsh-backstage-demo
+  description: My first Backstage demo service
+
+  annotations:
+    github.com/project-slug: YOUR_GITHUB_USERNAME/harsh-backstage-demo
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
